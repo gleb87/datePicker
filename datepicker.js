@@ -21,6 +21,8 @@ function DatePicker(options) {
 	self.setValue = function(newValue, quiet) {
 		parseValue(newValue);
 
+		if (elem) render();
+
 		if (!quiet) {
 			$(self).triggerHandler({
 				type: "select",
