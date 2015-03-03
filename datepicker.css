@@ -1,0 +1,38 @@
+.datepicker {
+	width: 400px;
+}
+
+.datepicker .header {
+	text-align: center;
+	border: 1px solid black;
+}
+
+.datepicker .header .prev {
+	float: left;
+
+	cursor: pointer;
+}
+
+.datepicker .header .next {
+	float: right;
+
+	cursor: pointer;
+}
+
+.datepicker .header .prev:hover {
+	color: white;
+	background-color: lightblue;
+}
+
+.datepicker .header .next:hover {
+	color: white;
+	background-color: lightblue;
+}
+
+.datepicker .body .calendar-left {
+	float: left;
+}
+
+.datepicker .body .calendar-right {
+	float: right;
+}
